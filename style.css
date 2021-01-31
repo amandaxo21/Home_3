@@ -1,0 +1,230 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+html {
+   font-size: 62.5%;
+}
+body {
+   font-size: 1.6rem    
+}  
+p {
+   font-size: 1.5rem;
+}
+.content_primary {
+   display: flex;
+   flex-wrap: wrap;        
+   width: 100%;        
+   justify-content: center;   
+}
+.content_text {   
+   text-align: justify;
+   font-family: "fira";
+   flex-grow: 1;   
+   width: 48vw;   
+   height: auto;
+}
+.text_styles {   
+   font-size: 100%;
+   margin-left: 10%;
+   margin-top: 50%;
+}
+.content_image {
+   flex-grow: 1;
+   width: auto;
+   height: auto;
+}
+.image_styles {      
+   flex-grow: 1; 
+   width: inherit;  
+   max-width: 70%; 
+   height: auto;
+   margin-top: 20%;
+   margin-left: 20%;
+}
+.content_social_networks {
+   
+   display: flex;
+   flex-wrap: wrap;           
+   justify-content: center; 
+}
+.social_networks_primary {
+   
+   height: auto;
+   width: 4px;
+   flex-grow: 1;
+   margin-left: 10%;      
+   margin-top: 1%;   
+}
+.social_networks_secondary {
+   
+   width: auto;
+   height: auto;
+   flex-grow: 1;   
+   margin-right: 5%;
+   margin-left: 0%;
+}
+.margin_right {
+   margin-right: 3%;
+   width: inherit;  
+   max-width: 8%; 
+   height: auto;
+}
+.content_secondary {
+   background-color: #F8F9F9;
+}
+.styles_hypertext_LEARN-MORE {   
+   color: #77DEF0;   
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: none;
+} 
+.text-align_LEARN-MORE {   
+   padding-left: 7%;
+}
+.size-margin_image_Web-Designer {
+   max-width: 20%; 
+   margin-top: 5%;
+   margin-left: 5%;
+}
+.size-margin_image_Front-end-Developer {
+   max-width: 20%; 
+   margin-top: 5%;
+   margin-left: 5%;
+}
+.size-margin_image_Software-Developer {
+   max-width: 15%; 
+   margin-top: 5%;
+   margin-left: 7%;
+}
+.subtitle_content_secondary {
+   margin-top: 2%;
+   margin-left: 6%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.text_content_secondary {
+   margin-top: 2%;
+   margin-left: 7%;
+   font-family: Arial, Helvetica, sans-serif;
+}
+.content_secondary {   
+   display: flex;
+   flex-wrap: wrap;        
+   justify-content: space-evenly; 
+}
+.box_details {
+   width: 300px;
+   height: 200px;
+   max-width: 70%;
+   border-radius: 5%;
+   box-shadow: 2px 2px 2px 2px #C2C6C6;
+}
+.details {
+   background: #ffffff;
+   border-color: black;
+   border-radius: 3%;
+   margin-top: 15%;   
+   margin-bottom: 10%; 
+}
+.content_third {
+   background-color: white;
+}
+.subtitle_skills_styles {  
+   font-family: Arial, Helvetica, sans-serif; 
+   text-align: center;
+   margin-top: 5%;   
+}
+.line_skills_subtitle {
+   background-color: black;   
+   height: 3px;   
+   width: 8%;
+   margin-left: 46%;   
+   margin-top: 0.5%;
+}
+.background-color_content_third {
+   background-color: white;
+}
+.content_third {
+   display: flex;
+   flex-wrap: wrap;        
+   justify-content: space-evenly;
+}
+.box_skills {
+   width: 300px;
+   height: 200px;
+   max-width: 70%;
+   border-radius: 5%;
+   box-shadow: 2px 2px 2px 2px #C2C6C6;
+}
+.skills {    
+   background: #ffffff;
+   border-color: black;
+   border-radius: 3%;
+   margin-top: 10%;   
+   margin-bottom: 10%; 
+}
+ .image_skills {   
+   margin-top: 10%;
+   margin-left: 25%;
+   max-width: 45%;
+}
+.background-color_content_thrird {
+   background-color: #363737;
+}
+.subtitle_porfalio_styles {
+   font-family: Arial, Helvetica, sans-serif; 
+   text-align: center;
+   color: white;
+   padding-top: 5%;   
+}
+.line_portafolio_subtitle {
+   background-color: white;
+   height: 1px;
+   margin-left: 45%;   
+   margin-top: 1%;
+   width: 10%;
+}
+.content_portafolio {   
+   display: flex;
+   flex-wrap: wrap;            
+   justify-content: space-evenly;  
+   padding: 1%; 
+   padding-right: 3%;     
+   padding-top: 3%;
+   padding-left: 3%;
+}
+.content_fourth {
+   display: flex;
+   flex-wrap: wrap;        
+   width: 100%;            
+}
+.line_footer {
+   background-color: white;   
+   margin-left: 5%;
+}
+.content_mail {        
+   display: flex;
+   flex-wrap: wrap;        
+   margin-top: 2%;      
+   margin-left: 5%; 
+   width: 30%; 
+}
+.size_redes {   
+   margin-top: 1.5%;
+   margin-left: 45%;    
+   width: auto;
+}
+.box_style_mail {    
+   font-family: Arial, Helvetica, sans-serif;
+   margin-right: 2%;
+   margin-left: 3%;
+   margin-top: 0%;
+   padding-right: 2%;
+}
+.logo {
+   max-width: 20%;
+   padding-right: 5%;
+}
+.redes_sociales {
+   justify-content: space-evenly;
+}  
